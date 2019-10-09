@@ -1,8 +1,11 @@
-package br.com.ciandt.login.calculadora;
+package br.com.ciandt.enovais.calculadora;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import br.com.ciandt.enovais.calculadora.Soma;
+import br.com.ciandt.enovais.calculadora.SomaException;
 
 public class SomaTest {
 

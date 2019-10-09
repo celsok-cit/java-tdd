@@ -1,4 +1,4 @@
-package br.com.ciandt.login.calculadora;
+package br.com.ciandt.enovais.calculadora;
 
 public class Soma {
 
