@@ -4,11 +4,11 @@ public class Soma {
 
 	public double calcular(Double primeiroNumero, Double segundoNumero) throws SomaException  {
 		
-		try {
-			return primeiroNumero + segundoNumero;
-		} catch (Exception e) {
-			throw new SomaException("hdksjahdk");
+		if (primeiroNumero == null || segundoNumero == null) {
+			throw new SomaException("números não podem ser nulos");
 		}
+		
+		return primeiroNumero + segundoNumero;
 	}
 
 }
